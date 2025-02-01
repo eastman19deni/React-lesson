@@ -1,11 +1,14 @@
 import './App.css';
 import Exercises from './components/Exercises';
+import List from './components/List';
+
 
 function App() {
   
   return (
     <div>
-      <Exercises />
+      <List />
+      {/* <Exercises /> */}
     </div>
   );
 }
