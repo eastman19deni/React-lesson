@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Usual{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(106, 149, 141);
+    color: wheat;
+    padding: 100px;
+}
+
+.comments__add_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.comments__add_field{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.comments__list_box{
+    display: flex;
+}
+
+.comment__item{
+    display: flex;
+    width: calc(100% - 24px);
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background-color: wheat;
+    padding: 10px;
+}
+
+.comment__content{
+    display: flex;
+    max-width: 70%;
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+    color: #000;
+    text-wrap: wrap;
+    word-break: break-all;
+}
+
+.btnAddComment{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.comments_button{
+    position: absolute;
+    left: 50%;
+}
